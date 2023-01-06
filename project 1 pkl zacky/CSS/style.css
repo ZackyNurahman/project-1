@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-image: url(../image/layered-waves-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+  margin-top: 20px;
+}
+
+.nav{
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:#86E5FF;
+  justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none ;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
+  section{
+    margin: auto;
+    display: flex;
+  }
+
+  #home {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .kolom{
+    padding-left: 15px;
+  }
+  
+  #home img{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    margin-left: 60rem;
+    margin-top: 5rem;
+  }
+
+
+  .text {
+    width: 40%;
+  }
+
+  .text p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  h2{
+    font-family: 'comic sans-ms';
+    font-weight:800px;
+    font-size:35px;
+    margin-bottom:20px;
+    width:100%;
+    line-height:50px;
+  }
+
+  .button-join {
+    margin-top: 3rem;
+  }
+
+  .button-join a {
+    background: #fc5185;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .button-join a:hover{
+    background: #3f72af;
+    text-decoration: none;
+  }
+
+.visi-misi {
+  display: flex;
+  padding: 30px;
+}
+
+.visi, .misi {
+  width: 50%;
+}
+
+.visi-misi ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 17px;
+}
+
+.visi-misi h3 {
+  padding-left: 17px;
+}
+
+.visi-misi h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.img {
+  margin: 0;
+}
+
+img#foto2 {
+  margin-top: 0;
+}
+
+.footer {
+  background-color: #8a63fd;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
